@@ -4,6 +4,8 @@ import Home from './Home'
 import NotFound from './NotFound'
 import Watch from './watch/Watch'
 import Alarm from './alarm/Alarm'
+import Music from './music/Music'
+import Record from './record/Record'
 
 export default function RouterPage() {
   return (
@@ -12,6 +14,8 @@ export default function RouterPage() {
             <Route path='/' element={<Home/>} />
             <Route path='/watch' element={<Watch/>} />
             <Route path='/alarm' element={<Alarm/>} />
+            <Route path='/music' element={<Music/>} />
+            <Route path='/record' element={<Record/>} />
 
             <Route path='*' element={<NotFound/>} />
 
