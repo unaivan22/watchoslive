@@ -8,7 +8,7 @@ export default function HomeRender() {
       );
       const listItems = appIcons.map(getAppIcons =>
         <Link to={getAppIcons.link} key={getAppIcons.id}>
-            <img className='w-full h-fit aspect-square object-contain rounded-md' src={getAppIcons.image} />
+            <img className='w-full h-fit aspect-square object-contain rounded-full bg-white p-2' src={getAppIcons.image} />
         </Link>
       );
       return <div className='grid grid-cols-3 px-2 gap-x-2 gap-y-4 mt-4'>{listItems}</div>;

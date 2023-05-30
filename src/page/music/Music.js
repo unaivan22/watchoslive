@@ -6,6 +6,10 @@ import { MdOutlineSkipPrevious } from 'react-icons/md';
 import { MdOutlineSkipNext } from 'react-icons/md';
 
 export default function Music() {
+    let audio = new Audio("/media/mp3/RhinestoneEyes.mp3")
+    const start = () => {
+        audio.play()
+      }
   return (
     <WatchLayout>
         <ZoomIn>
@@ -18,7 +22,7 @@ export default function Music() {
                 
                 <div className='flex items-center justify-between mt-2'>
                     <MdOutlineSkipPrevious color="#333333" fontSize="1.5em" />
-                    <BsFillPlayCircleFill  color="#FF4110" fontSize="2em"  />
+                    <BsFillPlayCircleFill  color="#FF4110" fontSize="2em"  onClick={start} />
                     <MdOutlineSkipNext  color="#333333" fontSize="1.5em"  />
 
                 </div>
