@@ -18,7 +18,7 @@ const Home = ({ className, children }) => {
             <ZoomIn>
               <section className="rounded-[2rem] overflow-x-hidden overflow-y-scroll h-[193px] w-[188px] bg-black homeBgImage">
                 <HomeRender />
-              </section>  
+              </section>
             </ZoomIn>
         </div>
         <div className="relative mx-auto bg-gray-50 rounded-b-[2.5rem] h-[63px] max-w-[133px] shadow-sm"></div>

@@ -4,6 +4,9 @@ import ZoomIn from '../../Layout/ZoomIn'
 import { BsFillPlayCircleFill } from 'react-icons/bs';
 import { MdOutlineSkipPrevious } from 'react-icons/md';
 import { MdOutlineSkipNext } from 'react-icons/md';
+import { MdPlaylistPlay } from 'react-icons/md';
+import ModalLayout from '../../Layout/ModalLayout';
+
 
 export default function Music() {
     let audio = new Audio("/media/mp3/RhinestoneEyes.mp3")
@@ -13,7 +16,7 @@ export default function Music() {
   return (
     <WatchLayout>
         <ZoomIn>
-            <section className='max-h-[190px] max-w-[208px] overflow-y-scroll pt-4 rounded-t-[2.5rem] text-center mx-4'>
+            <section className='max-h-[190px] max-w-[208px] overflow-x-hidden overflow-y-scroll pt-4 rounded-t-[2.5rem] text-center mx-4'>
                 <div className='flex justify-center mb-2'>
                     <img className='w-20 aspect-square object-cover rounded-xl' src='https://i.scdn.co/image/ab67616d00001e02661d019f34569f79eae9e985'/>
                 </div>
@@ -26,8 +29,14 @@ export default function Music() {
                     <MdOutlineSkipNext  color="#333333" fontSize="1.5em"  />
 
                 </div>
-
+                <label className='absolute top-6 right-3 pointer' htmlFor="modalTemplate">
+                    <MdPlaylistPlay fontSize="1.6em"  />
+                </label>
             </section>
+            <ModalLayout>
+                <p>asdasdas d asd</p>
+            </ModalLayout>
+            
         </ZoomIn>
     </WatchLayout>
   )

@@ -6,6 +6,7 @@ import Watch from './watch/Watch'
 import Alarm from './alarm/Alarm'
 import Music from './music/Music'
 import Record from './record/Record'
+import Gallery from './gallery/Gallery'
 
 export default function RouterPage() {
   return (
@@ -16,6 +17,7 @@ export default function RouterPage() {
             <Route path='/alarm' element={<Alarm/>} />
             <Route path='/music' element={<Music/>} />
             <Route path='/record' element={<Record/>} />
+            <Route path='/gallery' element={<Gallery/>} />
 
             <Route path='*' element={<NotFound/>} />
 

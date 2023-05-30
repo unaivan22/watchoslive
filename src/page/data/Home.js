@@ -18,5 +18,10 @@ export const appIcon = [{
     image: 'media/icons/voice-square.svg',
     link: '/record',
     type: 'icon'
+},{
+    id: 5,
+    image: 'media/icons/gallery.svg',
+    link: '/gallery',
+    type: 'icon'
 }
 ];

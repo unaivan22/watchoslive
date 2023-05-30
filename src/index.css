@@ -11,6 +11,17 @@ body {
   width: 0;
 }
 
+.modalWatch{
+  position: absolute;
+  /* background-color: transparent !important; */
+}
+
+.modalWatch .modal-box{
+  box-shadow: none !important;
+  padding: 1rem;
+  /* background-color: transparent !important; */
+}
+
 .homeBgImage{
   background-image: url(https://wallpaperaccess.com/full/3063800.jpg);
   width: 188px; /* You must set a specified height */
