@@ -9,7 +9,7 @@ const WatchLayout = ({ className, children }) => {
       
 
         <div className="relative mx-auto bg-gray-50 rounded-t-[2.5rem] h-[63px] max-w-[133px] shadow-sm"></div>
-        <div className="relative mx-auto border-zinc-50 border-[10px] rounded-[2.5rem] h-[213px] w-[208px] shadow-md bg-white">
+        <div className="relative mx-auto border-zinc-700 border-[10px] rounded-[2.5rem] h-[213px] w-[208px] shadow-md bg-white">
             <div onClick={() => navigate(-1)} className="h-[41px] w-[6px] bg-rose-500 absolute -right-[16px] top-[40px] rounded-r-lg pointer"></div>
             <div className="h-[32px] w-[6px] bg-rose-50 absolute -right-[16px] top-[88px] rounded-r-lg"></div>
             {/* <div className="rounded-[2rem] overflow-hidden h-[193px] w-[188px] bg-white">

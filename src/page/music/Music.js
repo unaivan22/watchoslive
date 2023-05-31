@@ -21,7 +21,7 @@ export default function Music() {
                     <img className='w-20 aspect-square object-cover rounded-xl' src='https://i.scdn.co/image/ab67616d00001e02661d019f34569f79eae9e985'/>
                 </div>
                 <h1 className='text-base text-zinc-900 font-normal'>Rhinestone Eyes</h1>
-                <p className='text-xs text-zinc-400'>Gorillaz</p>
+                <p className='text-2xs text-zinc-400'>Gorillaz</p>
                 
                 <div className='flex items-center justify-between mt-2'>
                     <MdOutlineSkipPrevious color="#333333" fontSize="1.5em" />
@@ -33,8 +33,15 @@ export default function Music() {
                     <MdPlaylistPlay fontSize="1.6em"  />
                 </label>
             </section>
+
             <ModalLayout>
-                <p>asdasdas d asd</p>
+                <div className='flex justify-between flow-row bg-white'>
+                    <p className='absolute top-2 text-xs'>Playlist</p>
+                    <label htmlFor="modalTemplate" className="btn btn-xs btn-circle absolute right-4 top-2">✕</label>
+                </div>
+                <section className='max-h-[170px] overflow-y-scroll mt-5'>
+                    <p>asdasasdsdsa</p>
+                </section>
             </ModalLayout>
             
         </ZoomIn>

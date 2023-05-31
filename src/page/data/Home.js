@@ -1,11 +1,11 @@
 export const appIcon = [{
     id: 1,
-    image: 'media/icons/backward-10-seconds.svg',
+    image: 'media/icons/notification-status.svg',
     link: '/alarm',
     type: 'icon'
 },{
     id: 2,
-    image: 'media/icons/chart.svg',
+    image: 'media/icons/clock.svg',
     link: '/watch',
     type: 'icon'
 },{
@@ -22,6 +22,16 @@ export const appIcon = [{
     id: 5,
     image: 'media/icons/gallery.svg',
     link: '/gallery',
+    type: 'icon'
+},{
+    id: 6,
+    image: 'media/icons/battery-2.svg',
+    link: '/battery',
+    type: 'icon'
+},{
+    id: 7,
+    image: 'media/icons/calculator.svg',
+    link: '/calculator',
     type: 'icon'
 }
 ];

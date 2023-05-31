@@ -10,8 +10,8 @@ export default function Record() {
     <WatchLayout>
         <ZoomIn>
             <section className='max-h-[190px] max-w-[208px] overflow-y-scroll pt-4 rounded-t-[2.5rem] text-center mx-4'>
-                <p className='text-xs text-zinc-400 mt-6'>Hi bro,I was thinking to do something on Sunday</p>
-                <div className='flex justify-center mb-2 mt-4'>
+                <p className='text-2xs text-zinc-400 mt-6'>Hi bro,I was thinking to do something on Sunday</p>
+                <div className='flex justify-center mb-2 mt-2'>
                     <img className='w-max object-cover rounded-xl' src='media/misc/waveform.svg'/>
                 </div>                
                 <div className='flex items-center justify-between mt-2'>
