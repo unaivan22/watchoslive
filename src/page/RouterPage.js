@@ -9,6 +9,7 @@ import Record from './record/Record'
 import Gallery from './gallery/Gallery'
 import Battery from './battery/Battery'
 import Calculator from './calculator/Calculator'
+import Weather from './weather/Weather'
 
 export default function RouterPage() {
   return (
@@ -22,6 +23,7 @@ export default function RouterPage() {
             <Route path='/gallery' element={<Gallery/>} />
             <Route path='/battery' element={<Battery/>} />
             <Route path='/calculator' element={<Calculator/>} />
+            <Route path='/weather' element={<Weather/>} />
 
             <Route path='*' element={<NotFound/>} />
 

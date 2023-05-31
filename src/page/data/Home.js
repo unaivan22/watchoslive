@@ -33,5 +33,10 @@ export const appIcon = [{
     image: 'media/icons/calculator.svg',
     link: '/calculator',
     type: 'icon'
+},{
+    id: 8,
+    image: 'media/icons/cloud-notif.svg',
+    link: '/weather',
+    type: 'icon'
 }
 ];
