@@ -55,6 +55,9 @@ export default class WatchMinimal extends Component {
           <span className="nine_minimal text-center">9</span>
           {/* <span className="ten">10</span>
           <span className="eleven">11</span> */}
+          <div className="absolute bottom-10 left-1 flex justify-center w-full">
+            <p className="text-2xs">{(new Date().getFullYear())}</p>
+          </div>
         </div>
       </ZoomIn>
     );
