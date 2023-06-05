@@ -23,7 +23,7 @@ body {
 }
 
 .homeBgImage{
-  background-image: url(https://media.idownloadblog.com/wp-content/uploads/2022/06/Apple-macOS-13-wallpaper.jpg);
+  background-image: url(/public/media/bg.jpg);
   width: 188px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
